@@ -28,7 +28,7 @@ nav {
     width: 100%;
     color: white;
     font-family: 'Markazi Text', serif;
-    font-size: 30px;
+    font-size: 2vw;
 }
 
 nav ul {
@@ -43,20 +43,99 @@ nav ul li {
     margin: 0 15px;
 }
 
-nav ul li a {
+nav ul li a:link {
     color: white;
     text-decoration: none;
 }
 
+nav ul li a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #152d45;
+    text-decoration: underline;
+}
+
+.Banner_orange {
+    background-color: #e87224;
+    padding: 0.05vw 0;
+}
+
+a.MainText:link {
+    font-family: 'Markazi Text', serif;
+    font-size: 2vw;
+    color: #dbdddf;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    text-decoration: underline;
+}
+
+a.MainText:visited {
+    font-family: 'Markazi Text', serif;
+    font-size: 2vw;
+    color: #dbdddf;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    text-decoration: underline;
+}
+
+a.MainText:hover {
+    font-family: 'Markazi Text', serif;
+    font-size: 2vw;
+    color: #ffffff;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    text-decoration: underline;
+}
+
+a.LaharReadyTitle:link {
+    font-family: 'Markazi Text', serif;
+    font-size: 3vw;
+    color: #152d45;
+    padding-top: -1vw;
+    padding-left: 1vw;
+    margin-top: -2vw;
+    text-decoration: none;
+}
+
+a.LaharReadyTitle:visited {
+    font-family: 'Markazi Text', serif;
+    font-size: 3vw;
+    color: #152d45;
+    padding-top: -1vw;
+    padding-left: 1vw;
+    margin-top: -2vw;
+    text-decoration: none;
+}
+
+a.LaharReadyTitle:hover {
+    font-family: 'Markazi Text', serif;
+    font-size: 3vw;
+    color: #dbdddf;
+    padding-top: -1vw;
+    padding-left: 1vw;
+    margin-top: -2vw;
+    text-decoration: underline;
+}
+
 .HP_background {
   background-color: #152d45;
-  margin: -50px 0 0 0;
-  padding: 0;
+  margin-top:  -1vw;
 }
+
+.About_background {
+    background-color: #152d45;
+    margin-top:  -4vw;
+  }
 
 .Active {
     font-family: 'Markazi Text', serif;
-    font-size: 80px;
+    font-size: 6vw;
     color: #dbdddf;
     padding-top: 2.5vw;
     padding-left: 10vw;
@@ -65,7 +144,7 @@ nav ul li a {
 
 .Risk {
     font-family: 'Markazi Text', serif;
-    font-size: 40px;
+    font-size: 3vw;
     color: #dbdddf;
     padding-top: -2vw;
     padding-left: 10vw;
@@ -77,5 +156,54 @@ nav ul li a {
     color: #dbdddf;
     padding-top: 0vw;
     padding-left: 10vw;
+    margin-bottom: 10vw;
+}
+
+.Subtitle_1 {
+    font-family: 'Markazi Text', serif;
+    font-size: 4vw;
+    color: #dbdddf;
+    padding-top: 3vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.Main_text_1 {
+    font-family: 'Markazi Text', serif;
+    font-size: 2vw;
+    color: #dbdddf;
+    padding-top: -2vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.LaharReady {
+    font-family: 'Markazi Text', serif;
+    font-size: 80px;
+    color: #dbdddf;
+    padding-top: 0vw;
+    padding-left: 10vw;
     padding-bottom: 0vw;
+}
+
+.Buffer_blue {
+    background-color: #152d45;
+    margin:  10vw;
+    padding: 10vw;
+}
+
+.Footer_blue {
+    background-color: #152d45;
+    margin-top:  -10vw;
+    padding: 2vw;
+    font-family: 'Markazi Text', serif;
+    text-align: center;
+}
+
+.Footer_orange {
+    background-color: #e87224;
+    margin-top:  -10vw;
+    padding: 2vw;
+    font-family: 'Markazi Text', serif;
+    text-align: center;
 }
