@@ -1,7 +1,7 @@
 body, html {
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
+    background-color: #152d45;
 }
 
 section {
@@ -25,7 +25,8 @@ nav {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 60%;
+    margin: 25px 21vw;
     color: white;
     font-family: 'Markazi Text', serif;
     font-size: 2vw;
@@ -33,7 +34,7 @@ nav {
 
 nav ul {
     list-style-type: none;
-    padding: 10px;
+    padding: 0vw;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -133,11 +134,48 @@ a.LaharReadyTitle:hover {
     margin-top:  -4vw;
   }
 
+.Nest_rows_HP {
+    display: flex; 
+    margin-left: 10vw;
+    margin-bottom: 5vw;
+    width: 75vw;
+}
+
+
+.Nest_rows_HP_c1 {
+    width: 20vw;;
+    margin: 0;
+}
+
+.Nest_rows_HP_c2 {
+    width: 60vw;
+    padding-left: 2vw;
+    margin: 0;
+}
+
+.Subtitle_table {
+    font-family: 'Markazi Text', serif;
+    font-size: 4vw;
+    color: #dbdddf;
+    padding-top: 3vw;
+    margin: 0;
+}
+
+.Main_text_table {
+    font-family: 'Markazi Text', serif;
+    font-size: 2vw;
+    color: #dbdddf;
+    padding: 0;
+    margin: 0;
+}
+
 .Active {
     font-family: 'Markazi Text', serif;
     font-size: 6vw;
     color: #dbdddf;
-    padding-top: 2.5vw;
+    /* padding-top: vw; */
+    margin-top: -4vw;
+    margin-bottom: -4vw;
     padding-left: 10vw;
     padding-bottom: 0vw;
 }
@@ -148,15 +186,6 @@ a.LaharReadyTitle:hover {
     color: #dbdddf;
     padding-top: -2vw;
     padding-left: 10vw;
-}
-
-.LaharReady {
-    font-family: 'Markazi Text', serif;
-    font-size: 80px;
-    color: #dbdddf;
-    padding-top: 0vw;
-    padding-left: 10vw;
-    margin-bottom: 10vw;
 }
 
 .Subtitle_1 {
@@ -179,17 +208,19 @@ a.LaharReadyTitle:hover {
 
 .LaharReady {
     font-family: 'Markazi Text', serif;
-    font-size: 80px;
+    font-size: 6vw;
     color: #dbdddf;
+    margin-top: -5vw;
+    margin-bottom: -3vw;
     padding-top: 0vw;
-    padding-left: 10vw;
+    padding-left: 30vw;
     padding-bottom: 0vw;
 }
 
 .Buffer_blue {
     background-color: #152d45;
-    margin:  10vw;
-    padding: 10vw;
+    /* margin:  -6vw; */
+    padding-bottom: 10vw;
 }
 
 .Footer_blue {
@@ -202,8 +233,11 @@ a.LaharReadyTitle:hover {
 
 .Footer_orange {
     background-color: #e87224;
+    width: 100%;
     margin-top:  -10vw;
-    padding: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
     font-family: 'Markazi Text', serif;
     text-align: center;
+    margin-top: auto;
 }
