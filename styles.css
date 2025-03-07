@@ -217,6 +217,12 @@ a.LaharReadyTitle:hover {
     padding-bottom: 0vw;
 }
 
+.GoogleMap {
+    height: 70vh;
+    width: 100%;
+    /* margin-left: 20vw; */
+}
+
 .Buffer_blue {
     background-color: #152d45;
     /* margin:  -6vw; */
