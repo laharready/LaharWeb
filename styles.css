@@ -207,6 +207,16 @@ a.LaharReadyTitle:hover {
     padding-right: 10vw;
 }
 
+.Quote {
+    font-family: 'Markazi Text', serif;
+    font-size: 2vw;
+    color: #dbdddf;
+    padding-top: -2vw;
+    padding-left: 20vw;
+    padding-right: 10vw;  
+    background-color: #e8722448; 
+}
+
 .LaharReady {
     font-family: 'Markazi Text', serif;
     font-size: 6vw;
@@ -222,6 +232,26 @@ a.LaharReadyTitle:hover {
     height: 70vh;
     width: 100%;
     /* margin-left: 20vw; */
+}
+
+.EvacMaps_pair {
+    display: flex; 
+    margin-left: 10vw;
+    margin-bottom: 5vw;
+    width: 70vw;
+}
+
+.EvacMaps_pair_c1 {
+    width: 30vw;
+    height:auto;
+    margin: 0;
+}
+
+.EvacMaps_pair_c2 {
+    width: 30vw;
+    height:auto;
+    padding-left: 2vw;
+    margin: 0;
 }
 
 .Buffer_blue {
