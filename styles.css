@@ -68,7 +68,7 @@ nav ul li a:hover {
 a.MainText:link {
     font-family: 'Markazi Text', serif;
     font-size: 2vw;
-    color: #dbdddf;
+    color: #e87224;
     padding-top: 0;
     padding-left: 0;
     padding-right: 0;
@@ -78,7 +78,7 @@ a.MainText:link {
 a.MainText:visited {
     font-family: 'Markazi Text', serif;
     font-size: 2vw;
-    color: #dbdddf;
+    color: #e19461;
     padding-top: 0;
     padding-left: 0;
     padding-right: 0;
@@ -154,6 +154,24 @@ a.LaharReadyTitle:hover {
     margin: 0;
 }
 
+.Nest_rows_Evac {
+    display: flex; 
+    width: 100%;
+}
+
+.Nest_rows_Evac_c1 {
+    width: 55vw;
+    margin: 0;
+}
+
+.Nest_rows_Evac_c2 {
+    width: 40vw;
+    height: auto;
+    padding-top: 2vw;;
+    margin: 0;
+}
+
+
 .Subtitle_table {
     font-family: 'Markazi Text', serif;
     font-size: 4vw;
@@ -207,6 +225,14 @@ a.LaharReadyTitle:hover {
     padding-right: 10vw;
 }
 
+.Main_text_2 {
+    font-family: 'Markazi Text', serif;
+    font-size: 2vw;
+    color: #dbdddf;
+    padding-top: -2vw;
+    padding-left: 10vw;
+}
+
 .Quote {
     font-family: 'Markazi Text', serif;
     font-size: 2vw;
@@ -236,7 +262,7 @@ a.LaharReadyTitle:hover {
 
 .EvacMaps_pair {
     display: flex; 
-    margin-left: 10vw;
+    margin-left: 15vw;
     margin-bottom: 5vw;
     width: 70vw;
 }
