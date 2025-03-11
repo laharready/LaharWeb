@@ -167,7 +167,8 @@ a.LaharReadyTitle:hover {
 .Nest_rows_Evac_c2 {
     width: 40vw;
     height: auto;
-    padding-top: 2vw;;
+    padding-top: 2vw;
+    padding-left: 2vw;
     margin: 0;
 }
 
@@ -258,6 +259,12 @@ a.LaharReadyTitle:hover {
     height: 70vh;
     width: 100%;
     /* margin-left: 20vw; */
+}
+
+.EmergencyKit_1 {
+    width: 80vw;
+    height: auto;
+    margin-left: 10vw;
 }
 
 .EvacMaps_pair {
