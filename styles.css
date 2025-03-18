@@ -1,3 +1,4 @@
+/* GENERAL */
 body, html {
     width: 100%;
     margin: 0;
@@ -15,12 +16,7 @@ header, h1, h2 {
     padding: 0;
 }
 
-.full-width-image {
-  width: 100%;
-  height: auto;
-  margin: 0;
-  padding: 0;
-}
+/* NAVIGATION */
 
 nav {
     position: absolute;
@@ -65,36 +61,6 @@ nav ul li a:hover {
     padding: 0.05vw 0;
 }
 
-a.MainText:link {
-    font-family: 'Markazi Text', serif;
-    font-size: 2vw;
-    color: #e87224;
-    padding-top: 0;
-    padding-left: 0;
-    padding-right: 0;
-    text-decoration: underline;
-}
-
-a.MainText:visited {
-    font-family: 'Markazi Text', serif;
-    font-size: 2vw;
-    color: #e19461;
-    padding-top: 0;
-    padding-left: 0;
-    padding-right: 0;
-    text-decoration: underline;
-}
-
-a.MainText:hover {
-    font-family: 'Markazi Text', serif;
-    font-size: 2vw;
-    color: #ffffff;
-    padding-top: 0;
-    padding-left: 0;
-    padding-right: 0;
-    text-decoration: underline;
-}
-
 a.LaharReadyTitle:link {
     font-family: 'Markazi Text', serif;
     font-size: 3vw;
@@ -125,68 +91,46 @@ a.LaharReadyTitle:hover {
     text-decoration: underline;
 }
 
+/* BACKGROUNDS */
+
 .HP_background {
-  background-color: #152d45;
-  margin-top:  -1vw;
-}
-
-.About_background {
     background-color: #152d45;
-    margin-top:  -4vw;
+    margin-top:  -1vw;
   }
+  
+  .About_background {
+      background-color: #152d45;
+      margin-top:  -4vw;
+    }
 
-.Nest_rows_HP {
-    display: flex; 
-    margin-left: 10vw;
-    margin-bottom: 5vw;
-    width: 75vw;
-}
+/* TEXT ELEMENTS */
 
-
-.Nest_rows_HP_c1 {
-    width: 20vw;;
-    margin: 0;
-}
-
-.Nest_rows_HP_c2 {
-    width: 60vw;
-    padding-left: 2vw;
-    margin: 0;
-}
-
-.Nest_rows_Evac {
-    display: flex; 
-    width: 100%;
-}
-
-.Nest_rows_Evac_c1 {
-    width: 55vw;
-    margin: 0;
-}
-
-.Nest_rows_Evac_c2 {
-    width: 40vw;
-    height: auto;
-    padding-top: 2vw;
-    padding-left: 2vw;
-    margin: 0;
-}
-
-
-.Subtitle_table {
-    font-family: 'Markazi Text', serif;
-    font-size: 4vw;
-    color: #dbdddf;
-    padding-top: 3vw;
-    margin: 0;
-}
-
-.Main_text_table {
+.Main_text_1 {
     font-family: 'Markazi Text', serif;
     font-size: 2vw;
     color: #dbdddf;
-    padding: 0;
-    margin: 0;
+    padding-top: -2vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.Main_text_2 {
+    font-family: 'Markazi Text', serif;
+    font-size: 2vw;
+    color: #dbdddf;
+    padding-top: -2vw;
+    padding-left: 10vw;
+}
+
+.LaharReady {
+    font-family: 'Markazi Text', serif;
+    font-size: 6vw;
+    color: #dbdddf;
+    margin-top: -5vw;
+    margin-bottom: -3vw;
+    padding-top: 0vw;
+    padding-left: 40vw;
+    padding-bottom: 0vw;
 }
 
 .Active {
@@ -217,23 +161,6 @@ a.LaharReadyTitle:hover {
     padding-right: 10vw;
 }
 
-.Main_text_1 {
-    font-family: 'Markazi Text', serif;
-    font-size: 2vw;
-    color: #dbdddf;
-    padding-top: -2vw;
-    padding-left: 10vw;
-    padding-right: 10vw;
-}
-
-.Main_text_2 {
-    font-family: 'Markazi Text', serif;
-    font-size: 2vw;
-    color: #dbdddf;
-    padding-top: -2vw;
-    padding-left: 10vw;
-}
-
 .Quote {
     font-family: 'Markazi Text', serif;
     font-size: 2vw;
@@ -244,15 +171,110 @@ a.LaharReadyTitle:hover {
     background-color: #e8722448; 
 }
 
-.LaharReady {
+.Main_text_table {
     font-family: 'Markazi Text', serif;
-    font-size: 6vw;
+    font-size: 2vw;
     color: #dbdddf;
+    padding: 0;
+    margin: 0;
+}
+
+.Subtitle_table {
+    font-family: 'Markazi Text', serif;
+    font-size: 4vw;
+    color: #dbdddf;
+    padding-top: 3vw;
+    margin: 0;
+}
+
+
+
+/* BODY LINK ELEMENTS */
+
+a.MainText:link {
+    font-family: 'Markazi Text', serif;
+    font-size: 2vw;
+    color: #e87224;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    text-decoration: underline;
+}
+
+a.MainText:visited {
+    font-family: 'Markazi Text', serif;
+    font-size: 2vw;
+    color: #e19461;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    text-decoration: underline;
+}
+
+a.MainText:hover {
+    font-family: 'Markazi Text', serif;
+    font-size: 2vw;
+    color: #ffffff;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    text-decoration: underline;
+}
+
+/* FLEXBOX CONFIGURATIONS */
+
+
+.Nest_rows_HP {
+    display: flex; 
+    margin-left: 10vw;
+    margin-bottom: 5vw;
+    width: 75vw;
+}
+
+.Nest_rows_HP_c1 {
+    width: 20vw;;
+    margin: 0;
+}
+
+.Nest_rows_HP_c2 {
+    width: 60vw;
+    padding-left: 2vw;
+    margin: 0;
+}
+
+.Nest_rows_Evac {
+    display: flex; 
+    width: 100%;
+}
+
+.Nest_rows_Evac_c1 {
+    width: 55vw;
+    margin: 0;
+}
+
+.Nest_rows_Evac_c2 {
+    width: 40vw;
+    height: auto;
+    padding-top: 2vw;
+    padding-left: 1vw;
+    margin: 0;
+}
+
+/* IMAGE ELEMENTS */
+
+.full-width-image {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+.EvacSchem {
+    width: 60vw;
+    height: auto;
+    margin-left: 20vw;
     margin-top: -5vw;
-    margin-bottom: -3vw;
-    padding-top: 0vw;
-    padding-left: 30vw;
-    padding-bottom: 0vw;
+    margin-bottom: -2vw;
 }
 
 .GoogleMap {
@@ -287,11 +309,7 @@ a.LaharReadyTitle:hover {
     margin: 0;
 }
 
-.Buffer_blue {
-    background-color: #152d45;
-    /* margin:  -6vw; */
-    padding-bottom: 10vw;
-}
+/* FOOTERS */
 
 .Footer_blue {
     background-color: #152d45;
