@@ -260,6 +260,19 @@ a.MainText:hover {
     margin: 0;
 }
 
+.Nest_rows_Prep_c1 {
+    width: 65vw;
+    margin: 0;
+}
+
+.Nest_rows_Prep_c2 {
+    width: 15vw;
+    height: auto;
+    padding-top: 3vw;
+    padding-left: 1vw;
+    margin: 0;
+}
+
 /* IMAGE ELEMENTS */
 
 .full-width-image {
@@ -284,9 +297,9 @@ a.MainText:hover {
 }
 
 .EmergencyKit_1 {
-    width: 80vw;
+    width: 60vw;
     height: auto;
-    margin-left: 10vw;
+    margin-left: 20vw;
 }
 
 .EvacMaps_pair {
