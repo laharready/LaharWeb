@@ -107,7 +107,7 @@ a.LaharReadyTitle:hover {
 
 .Main_text_1 {
     font-family: 'Markazi Text', serif;
-    font-size: 2vw;
+    font-size: 2rem;
     color: #dbdddf;
     padding-top: -2vw;
     padding-left: 10vw;
@@ -116,7 +116,7 @@ a.LaharReadyTitle:hover {
 
 .Main_text_2 {
     font-family: 'Markazi Text', serif;
-    font-size: 2vw;
+    font-size: 2rem;
     color: #dbdddf;
     padding-top: -2vw;
     padding-left: 10vw;
@@ -124,24 +124,25 @@ a.LaharReadyTitle:hover {
 
 .LaharReady {
     font-family: 'Markazi Text', serif;
-    font-size: 6vw;
+    font-size: 6rem;
     color: #dbdddf;
     margin-top: -5vw;
     margin-bottom: -3vw;
     padding-top: 0vw;
-    padding-left: 40vw;
+    padding-left: 35vw;
     padding-bottom: 0vw;
 }
 
 .Active {
     font-family: 'Markazi Text', serif;
-    font-size: 6vw;
+    font-size: 6rem;
     color: #dbdddf;
     /* padding-top: vw; */
     margin-top: -4vw;
     margin-bottom: -4vw;
     padding-left: 10vw;
     padding-bottom: 0vw;
+    padding-right: 10vw;
 }
 
 .Risk {
@@ -154,7 +155,7 @@ a.LaharReadyTitle:hover {
 
 .Subtitle_1 {
     font-family: 'Markazi Text', serif;
-    font-size: 4vw;
+    font-size: 4rem;
     color: #dbdddf;
     padding-top: 3vw;
     padding-left: 10vw;
@@ -232,6 +233,7 @@ a.MainText:hover {
 }
 
 .Nest_rows_HP_c1 {
+    /* padding-top: 2vw; */
     width: 20vw;;
     margin: 0;
 }
